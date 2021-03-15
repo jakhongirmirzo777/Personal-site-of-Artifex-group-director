@@ -1,0 +1,29 @@
+@import 'components/contact/contact';
+
+@import 'components/header/header';
+@import 'components/header/navbar';
+
+@import 'components/features/features';
+@import 'components/features/carousel';
+@import 'components/features/popup';
+
+@import 'components/footer/footer';
+
+@import 'components/scroll/scroll';
+
+@import 'responsivenes/responsiveHome';
+
+@import 'responsivenes/responsiveCarousel';
+
+@import 'responsivenes/responsiveContact';
+@import 'responsivenes/responsiveFeatures';
+
+@import 'responsivenes/responsiveFooter';
+@import 'responsivenes/responsiveHeader';
+@import 'responsivenes/responsiveNavbar';
+
+@import 'adminComponents/adminLogin';
+@import 'adminComponents/adminMain';
+@import 'adminComponents/adminGallery';
+@import 'adminComponents/adminAddPopup';
+@import 'adminComponents/adminProfile';

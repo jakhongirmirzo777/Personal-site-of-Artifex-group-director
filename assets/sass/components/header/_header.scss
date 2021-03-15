@@ -1,0 +1,127 @@
+.header {
+  &__body {
+    padding: 7rem 5rem;
+    background-image: linear-gradient(
+        to right top,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url('~assets/sass/images/header.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  &__man__box {
+    position: relative;
+  }
+  &__man {
+    width: 620px;
+    height: 750px;
+    position: absolute;
+    left: -5rem;
+    top: -13%;
+  }
+  &__box {
+    padding: 1rem 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  &__content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__content__left {
+    padding: 2.5rem 0;
+    & div {
+      padding: 0 2.5rem;
+      position: relative;
+      &::after {
+        content: '';
+        width: 131px;
+        height: 131px;
+        left: 0;
+        top: -0.5rem;
+        z-index: 5;
+        background-position: center;
+        background-size: cover;
+        border-radius: 50%;
+        position: absolute;
+      }
+    }
+    & h1 {
+      font-weight: bold;
+      font-size: 48px;
+      z-index: 10;
+      position: relative;
+      line-height: 59px;
+      margin-bottom: 38px;
+      backdrop-filter: blur(3px);
+    }
+    & h2 {
+      font-weight: bold;
+      font-size: 26px;
+      line-height: 32px;
+      backdrop-filter: blur(3px);
+    }
+    & h3 {
+      font-weight: bold;
+      font-size: 26px;
+      line-height: 32px;
+      margin-bottom: 38px;
+      display: inline-block;
+      backdrop-filter: blur(3px);
+    }
+  }
+  &__content__right {
+    display: flex;
+    flex-direction: column;
+  }
+  &__content__visible {
+    display: none;
+  }
+  &__icons {
+    font-size: 2rem;
+    color: white;
+    margin: 0.7rem 0;
+    transition: all 0.2s;
+    backdrop-filter: blur(3px);
+
+    &:hover {
+      color: #34b3d3;
+    }
+  }
+  &__projects {
+    display: flex;
+    padding: 0 0 0 1rem;
+    margin-bottom: 3rem;
+  }
+  &__projects__box {
+    &:nth-child(1) {
+      padding: 0 1.5rem 0 0;
+    }
+    &:nth-child(2) {
+      padding: 0 1.5rem;
+    }
+    &:nth-child(3) {
+      padding: 0 0 0 1.5rem;
+    }
+    &:not(:last-child) {
+      border-right: 4px solid white;
+    }
+
+    & h2 {
+      font-weight: bold;
+      font-size: 38px;
+      line-height: 67.9%;
+    }
+    & p {
+      font-weight: 400;
+      font-size: 16px;
+      margin-bottom: 0;
+    }
+  }
+}

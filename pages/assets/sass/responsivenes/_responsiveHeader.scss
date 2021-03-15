@@ -1,0 +1,270 @@
+@media only screen and (max-width: 87.125em) {
+  .header {
+    &__man {
+      top: -15%;
+    }
+    &__content__left {
+      & h1 {
+        font-size: 38px;
+        line-height: 45px;
+        margin-bottom: 15px;
+      }
+      & h2 {
+        font-size: 21px;
+        line-height: 30px;
+      }
+      & h3 {
+        font-size: 24px;
+        line-height: 20px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 83.875em) {
+  .header {
+    &__man {
+      left: -10rem;
+      top: -5%;
+    }
+    &__content__left {
+      & h1 {
+        font-size: 38px;
+        line-height: 45px;
+        margin-bottom: 15px;
+      }
+      & h2 {
+        font-size: 21px;
+        line-height: 30px;
+      }
+      & h3 {
+        font-size: 24px;
+        line-height: 20px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 75em) {
+  .header {
+    &__man {
+      width: 580px;
+      height: 700px;
+    }
+    &__projects__box {
+      & h2 {
+        font-size: 24px;
+      }
+      & p {
+        font-size: 12px;
+      }
+    }
+    &__content__left {
+      & h1 {
+        font-size: 30px;
+        line-height: 45px;
+        margin-bottom: 15px;
+      }
+      & h2 {
+        font-size: 16px;
+        line-height: 30px;
+      }
+      & h3 {
+        font-size: 20px;
+        line-height: 20px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 62.5em) {
+  .header {
+    &__projects__box {
+      & h2 {
+        font-size: 24px;
+      }
+      & p {
+        font-size: 12px;
+      }
+    }
+    &__content__left {
+      & h1 {
+        font-size: 30px;
+        line-height: 45px;
+        margin-bottom: 15px;
+      }
+      & h2 {
+        font-size: 16px;
+        line-height: 30px;
+      }
+      & h3 {
+        font-size: 20px;
+        line-height: 20px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 56.25em) {
+  .header {
+    &__body {
+      background-position: 15%;
+    }
+    &__content__left {
+      & h1 {
+        font-size: 30px;
+        line-height: 45px;
+        margin-bottom: 15px;
+      }
+      & h2 {
+        font-size: 16px;
+        line-height: 30px;
+      }
+      & h3 {
+        font-size: 20px;
+        line-height: 20px;
+        margin-bottom: 20px;
+      }
+    }
+    &__projects__box {
+      & h2 {
+        font-size: 24px;
+      }
+      & p {
+        font-size: 12px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 43.125em) {
+  .header {
+    &__box {
+      padding: 0;
+    }
+    &__body {
+      padding: 7rem 1rem 7rem 5rem;
+    }
+    &__content__left {
+      padding: 0 0 0.5rem;
+      & div {
+        padding: 0 1rem;
+        &::after {
+          content: '';
+          left: -1rem;
+          top: -0.2rem;
+          height: 110px;
+          width: 110px;
+        }
+      }
+      & h1 {
+        font-size: 23px;
+        line-height: 1.5;
+        margin-bottom: 9px;
+      }
+      & h2 {
+        font-size: 15px;
+        line-height: 1.5;
+      }
+      & h3 {
+        font-size: 13px;
+        line-height: 1.5;
+        margin-bottom: 3px;
+      }
+    }
+    &__projects {
+      margin-bottom: 1rem;
+      justify-content: space-between;
+    }
+    &__icons {
+      font-size: 1.2rem;
+    }
+    &__projects__box {
+      &:not(:last-child) {
+        border-right: 2px solid white;
+      }
+      &:nth-child(1) {
+        padding: 0 0.5rem 0 0;
+      }
+      &:nth-child(2) {
+        padding: 0 0.5rem;
+      }
+      &:nth-child(3) {
+        padding: 0 0 0 0.5rem;
+      }
+      & h2 {
+        font-size: 17px;
+      }
+      & p {
+        font-size: 10px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 31.25em) {
+  .header {
+    &__content__right {
+      display: none;
+    }
+    &__content__visible {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    &__body {
+      background-position: 18%;
+      padding: 5rem 3rem 3rem 5rem;
+    }
+    &__content__left {
+      padding: 0 0 0.5rem;
+      & div {
+        padding: 0 1rem;
+        &::after {
+          content: '';
+          left: -1rem;
+          top: -0.2rem;
+          height: 110px;
+          width: 110px;
+        }
+      }
+      & h1 {
+        font-size: 15px;
+        line-height: 1.5;
+        margin-bottom: 5px;
+      }
+      & h2 {
+        font-size: 9px;
+        line-height: 15px;
+      }
+      & h3 {
+        font-size: 10px;
+        line-height: 1.5;
+        margin-bottom: 5px;
+      }
+    }
+    &__projects {
+      margin-bottom: 1rem;
+      justify-content: space-between;
+    }
+    &__icons {
+      font-size: 0.8rem;
+    }
+    &__projects__box {
+      & h2 {
+        font-size: 10px;
+      }
+      & p {
+        font-size: 6px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 23.75em) {
+  .header {
+    &__body {
+      padding: 5rem 1rem 3rem 5rem;
+    }
+  }
+}

@@ -1,0 +1,53 @@
+@media only screen and (max-width: 75em) {
+  .features {
+    &__container {
+      padding: 0 90px 6rem;
+    }
+  }
+  .contact {
+    padding: 50px 90px;
+  }
+  .footer {
+    padding: 30px 80px;
+  }
+}
+
+@media only screen and (max-width: 56.25em) {
+  .features {
+    &__container {
+      padding: 0 80px 5rem;
+    }
+  }
+  .contact {
+    padding: 40px 80px;
+  }
+  .footer {
+    padding: 30px 40px;
+  }
+}
+@media only screen and (max-width: 37.5em) {
+  .features {
+    &__container {
+      padding: 0 40px 3rem;
+    }
+  }
+  .contact {
+    padding: 30px 40px;
+  }
+  .footer {
+    padding: 30px 40px;
+  }
+}
+@media only screen and (max-width: 25em) {
+  .features {
+    &__container {
+      padding: 0 16px 1rem;
+    }
+  }
+  .contact {
+    padding: 20px 16px 30px;
+  }
+  .footer {
+    padding: 30px 16px;
+  }
+}

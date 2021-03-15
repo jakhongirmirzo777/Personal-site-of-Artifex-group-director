@@ -1,0 +1,68 @@
+@media only screen and (max-width: 41.875em) {
+  .carousel {
+    &__container {
+      padding-left: 32%;
+      & .slick-prev {
+        left: -5rem;
+      }
+      & .slick-next {
+        right: 15%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 33.125em) {
+  .carousel {
+    &__container {
+      padding-left: 28%;
+      & .slick-prev {
+        left: -45%;
+      }
+      & .slick-next {
+        right: 5%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 28.125em) {
+  .carousel {
+    &__container {
+      padding-left: 20%;
+      & .slick-prev {
+        left: -30%;
+      }
+      & .slick-next {
+        right: 5%;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 22.5em) {
+  .carousel {
+    &__container {
+      padding-left: 18%;
+      & .slick-prev {
+        left: -25%;
+      }
+      & .slick-next {
+        right: 8%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 20em) {
+  .carousel {
+    &__container {
+      padding-left: 14%;
+      & .slick-prev {
+        left: -22%;
+      }
+      & .slick-next {
+        right: 8%;
+      }
+    }
+  }
+}

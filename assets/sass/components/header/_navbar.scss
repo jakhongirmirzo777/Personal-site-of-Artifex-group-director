@@ -1,0 +1,177 @@
+.navbar {
+  &__container {
+    padding: 0 5rem;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.85);
+    box-shadow: 0 0.7rem 1rem rgba(0, 0, 0, 0.5);
+  }
+  &__activeLang {
+    position: relative;
+    &::after {
+      content: '';
+      height: 0.2rem;
+      width: 60%;
+      position: absolute;
+      left: 0.45rem;
+      bottom: 0.2rem;
+      background-color: #cf821d;
+      @media only screen and (max-width: 62em) {
+        width: 100%;
+        left: 0;
+      }
+    }
+  }
+  &__hamburger {
+    display: none;
+    & span {
+      display: inline-block;
+      width: 1.4rem;
+      height: 0.1rem;
+      background-color: white;
+    }
+    & span:nth-child(1) {
+      margin-bottom: 0.4rem;
+    }
+    & span:nth-child(2) {
+      margin-bottom: 0.4rem;
+    }
+    @media only screen and (max-width: 62em) {
+      display: flex;
+      position: absolute;
+      top: 2.1rem;
+      right: 6.1rem;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    @media only screen and (max-width: 56.25em) {
+      top: 2.1rem;
+      right: 5.1rem;
+    }
+    @media only screen and (max-width: 37.5em) {
+      top: 1.5rem;
+      right: 3.1rem;
+    }
+    @media only screen and (max-width: 26.25em) {
+      top: 1.6rem;
+      right: 3.1rem;
+      & span {
+        width: 1.3rem;
+        height: 0.1rem;
+      }
+      & span:nth-child(1) {
+        margin-bottom: 0.3rem;
+      }
+      & span:nth-child(2) {
+        margin-bottom: 0.3rem;
+      }
+    }
+    @media only screen and (max-width: 25em) {
+      top: 1.6rem;
+      right: 2.35rem;
+    }
+  }
+  &__logo {
+    width: 60px;
+    height: 60px;
+  }
+
+  &__item {
+    & .nav-link {
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 22px;
+      color: #ffffff !important;
+    }
+  }
+
+  &__lang {
+    & li a {
+      position: relative;
+      &::after {
+        content: '';
+        height: 0.2rem;
+        width: 0;
+        position: absolute;
+        left: 0.45rem;
+        bottom: 0.2rem;
+        background-color: #cf821d;
+        transition: all 0.2s;
+        @media only screen and (max-width: 62em) {
+          width: 0;
+          left: 0;
+          bottom: 0.2rem;
+        }
+      }
+      &:hover::after {
+        width: 61%;
+      }
+    }
+
+    @media only screen and (max-width: 62em) {
+      flex-direction: row;
+      & li {
+        margin-right: 0.7rem;
+      }
+    }
+  }
+
+  &__contact__btn__box {
+    @media only screen and (max-width: 62em) {
+      align-items: center !important;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: 1rem 0;
+    }
+  }
+
+  &__contact__btn {
+    margin-right: 100px;
+    @media only screen and (max-width: 62em) {
+      margin-right: 3rem;
+    }
+    & .nav-link {
+      display: inline-block;
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      border: 3px solid white !important;
+      padding: 0.2rem 1.5rem !important;
+      font-size: 15px;
+      line-height: 18px;
+      color: #ffffff !important;
+      transition: all 0.2s;
+      &:hover {
+        transform: translateY(-0.25rem);
+      }
+      &:active {
+        transform: translateY(-0.1rem);
+      }
+      @media only screen and (max-width: 62em) {
+        padding: 0.2rem 1.3rem !important;
+      }
+      @media only screen and (max-width: 31.25em) {
+        padding: 0.2rem 0.5rem !important;
+      }
+    }
+  }
+}
+
+.navbar-toggler-icon {
+  background-image: none !important;
+}
+
+.navbar-toggler {
+  border: none;
+
+  @media only screen and (max-width: 25em) {
+    padding: 0.1rem 0.2rem;
+  }
+}
+
+#nav-collapse {
+  padding-top: 0;
+}

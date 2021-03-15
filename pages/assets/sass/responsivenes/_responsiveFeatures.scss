@@ -1,0 +1,33 @@
+@media only screen and (max-width: 75em) {
+}
+@media only screen and (max-width: 56.25em) {
+  .features {
+    &__bottom {
+      & h1 {
+        margin: 3rem 0 1rem;
+        text-align: center;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 37.5em) {
+  .features {
+    &__bottom {
+      & h1 {
+        font-size: 54px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 25em) {
+  .features {
+    &__wrapper {
+      padding: 1rem 1.5rem 2rem;
+    }
+    &__bottom {
+      & h1 {
+        font-size: 48px;
+      }
+    }
+  }
+}

@@ -1,0 +1,86 @@
+.admin {
+  position: relative;
+  &__nav {
+    // #17a2b8
+    background-color: #222d32;
+    padding: 1rem 1.5rem;
+  }
+  &__toggler {
+    color: white;
+    cursor: pointer;
+    font-size: 1.3rem;
+  }
+
+  &__container {
+    position: relative;
+  }
+
+  &__sidebar {
+    background-color: #222d32;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 230px;
+    min-height: 100%;
+    padding: 0 0 40rem;
+    transition: all 0.3s ease-in-out;
+    @media only screen and (max-width: 50em) {
+      display: inline-block;
+      transform: translateX(-230px);
+    }
+  }
+
+  &__sideToggle {
+    display: inline-block;
+    transform: translateX(-230px);
+    @media only screen and (max-width: 50em) {
+      transform: translateX(0);
+    }
+  }
+
+  &__logo {
+    padding-left: 1.5rem;
+    & img {
+      height: 5rem;
+      width: 5rem;
+    }
+  }
+
+  &__list {
+    margin-top: 1rem;
+    list-style: none;
+    padding: 0;
+  }
+
+  &__link {
+    &,
+    &:link,
+    &:visited {
+      display: block;
+      text-decoration: none;
+      color: #b8c7ce;
+      padding: 0.6rem 0 0.6rem 1.5rem;
+      transition: all 0.3s;
+      font-size: 1.1rem;
+    }
+    &:hover {
+      background-color: #1e282c;
+      color: #fff;
+      padding: 0.6rem 0 0.6rem 1.8rem;
+    }
+  }
+
+  &__main {
+    margin-left: 230px;
+    transition: all 0.3s ease-in-out;
+    @media only screen and (max-width: 50em) {
+      margin-left: 0;
+    }
+  }
+  &__mainToggle {
+    margin-left: 0;
+    @media only screen and (max-width: 50em) {
+      margin-left: 230px;
+    }
+  }
+}

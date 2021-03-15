@@ -1,0 +1,40 @@
+@media only screen and (max-width: 48em) {
+  .footer {
+    &__box {
+      text-align: center;
+      justify-content: center;
+    }
+  }
+}
+
+@media only screen and (max-width: 31.25em) {
+  .footer {
+    &__wrapper {
+      margin-bottom: 1.2rem !important;
+    }
+    &__icons__box {
+      margin-bottom: 1.5rem;
+    }
+    &__icons {
+      font-size: 1.4rem;
+    }
+    &__copy {
+      & p {
+        font-size: 15px;
+        line-height: 22px;
+      }
+    }
+    &__logo {
+      width: 60px;
+      height: 60px;
+    }
+    &__envelope {
+      & p {
+        margin-left: 0.6rem;
+        margin-top: 0.1rem;
+        font-size: 15px;
+        line-height: 22px;
+      }
+    }
+  }
+}

@@ -1,0 +1,207 @@
+.profile {
+  &__container {
+    padding: 3rem 5rem;
+    min-height: 100%;
+  }
+  &__wrapper {
+    border-radius: 3px;
+    border: 1px solid #309bbe;
+  }
+  &__head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    border-bottom: 1px solid #309bbe;
+    & h1 {
+      font-size: 2rem;
+      font-weight: 600;
+    }
+  }
+
+  &__body {
+    padding: 2rem 5rem;
+  }
+  &__photo {
+    padding: 1rem;
+    border: 1px solid #309bbe;
+    border-radius: 3px;
+    margin-bottom: 2rem;
+
+    &__bg {
+      background-color: rgba(196, 196, 196, 0.15);
+      display: flex;
+      border-radius: 3px;
+      padding: 0.5rem;
+      justify-content: center;
+    }
+    &__img {
+      height: 11rem;
+      border-radius: 5px;
+      background-repeat: no-repeat;
+      object-fit: cover;
+    }
+  }
+  &__group {
+    display: flex;
+    align-items: center;
+    & div {
+      flex: 1;
+    }
+  }
+  &__edit {
+    margin: 0.3rem 0 0 1rem;
+    color: #255ba4;
+    cursor: pointer;
+  }
+  &__btn {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    & button {
+      margin-right: 1rem;
+    }
+  }
+  &__progress {
+    flex: 1;
+  }
+}
+
+@media only screen and (max-width: 75em) {
+  .profile {
+    &__container {
+      padding: 3rem 4rem;
+    }
+
+    &__head {
+      padding: 1rem;
+
+      & h1 {
+        font-size: 1.8rem;
+      }
+    }
+
+    &__body {
+      padding: 2rem 4rem;
+    }
+    &__photo {
+      padding: 1rem;
+      margin-bottom: 1.5rem;
+      &__img {
+        height: 9rem;
+      }
+    }
+
+    &__edit {
+      margin: 0.3rem 0 0 1rem;
+    }
+    &__btn {
+      & button {
+        margin-right: 1rem;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 56.25em) {
+  .profile {
+    &__container {
+      padding: 3rem 2rem;
+    }
+
+    &__head {
+      padding: 1rem;
+
+      & h1 {
+        font-size: 1.5rem;
+      }
+    }
+
+    &__body {
+      padding: 2rem 2rem;
+    }
+    &__photo {
+      padding: 1rem;
+      margin-bottom: 1.5rem;
+      &__img {
+        height: 9rem;
+      }
+    }
+
+    &__edit {
+      margin: 0.3rem 0 0 1rem;
+    }
+    &__btn {
+      & button {
+        margin-right: 1rem;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 37.5em) {
+  .profile {
+    &__container {
+      padding: 2rem 1.5rem;
+    }
+
+    &__head {
+      padding: 1rem;
+      & h1 {
+        font-size: 1.5rem;
+      }
+    }
+
+    &__body {
+      padding: 2rem 1.5rem;
+    }
+    &__photo {
+      padding: 1rem;
+      margin-bottom: 1.5rem;
+      &__img {
+        height: 8rem;
+      }
+    }
+
+    &__edit {
+      margin: 0.3rem 0 0 1rem;
+    }
+    &__btn {
+      & button {
+        margin-right: 1rem;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 25em) {
+  .profile {
+    &__container {
+      padding: 1.5rem 1rem;
+    }
+
+    &__head {
+      padding: 1rem;
+      & h1 {
+        font-size: 1.5rem;
+      }
+    }
+
+    &__body {
+      padding: 1.5rem 1rem;
+    }
+    &__photo {
+      padding: 1rem;
+      margin-bottom: 1.5rem;
+      &__img {
+        height: 8rem;
+      }
+    }
+
+    &__edit {
+      margin: 0.3rem 0 0 1rem;
+    }
+    &__btn {
+      & button {
+        margin-right: 1rem;
+      }
+    }
+  }
+}

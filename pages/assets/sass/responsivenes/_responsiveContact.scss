@@ -1,0 +1,16 @@
+@media only screen and (max-width: 37.5em) {
+  .contact {
+    & h1 {
+      margin-bottom: 36px;
+      font-size: 54px;
+    }
+  }
+}
+@media only screen and (max-width: 25em) {
+  .contact {
+    & h1 {
+      font-size: 45px;
+      margin-bottom: 26px;
+    }
+  }
+}
